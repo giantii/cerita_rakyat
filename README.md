@@ -1,6 +1,7 @@
 # Cerita Rakyat website
  
-  Demo: https://ceritarakyat.netlify.app
+
+  Demo versi 1 :https://cerita-rakyat.herokuapp.com/
   
 ## How to develop it
 - Clone on your local machine by using
