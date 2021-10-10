@@ -1,0 +1,134 @@
+.home {
+  flex-grow: 1;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home .title {
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+}
+
+.home .title p {
+  line-height: 50px;
+}
+
+.home .title button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin-top: 30px;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 999px;
+  background-color: #3f71f4;
+  font-family: "Poppins", cursive;
+}
+
+.home .person {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.home .person img {
+  width: 80%;
+}
+
+/* 
+  --------------------------------Button------------------------------- */
+.home .hbtn {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  padding: 8px 20px;
+  margin: 0px 3px 6px;
+  text-align: center;
+  border: 2px solid rgb(253, 0, 0);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
+  z-index: 0;
+}
+
+
+.home .hbtn i {
+  padding-right: 8px;
+}
+
+
+.home .hb-fill-middle::before {
+  position: absolute;
+  content: "";
+  background: rgb(0, 0, 0);
+  transition-duration: 0.3s;
+  z-index: -1;
+  inset: auto auto 0px 0px;
+  width: 100%;
+  height: 0px;
+  opacity: 1;
+}
+
+
+.home .hb-fill-middle:hover::before {
+  width: 100%;
+  height: 50%;
+  opacity: 1;
+}
+
+
+.home .hb-fill-middle2:hover {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  transition: color 0.3s ease 0s, background 0s ease 0.3s;
+}
+
+
+.home .hb-fill-middle::after {
+  position: absolute;
+  content: "";
+  background: rgb(0, 0, 0);
+  transition-duration: 0.3s;
+  z-index: -1;
+  inset: 0px auto auto 0px;
+  width: 100%;
+  height: 0px;
+  opacity: 1;
+}
+
+
+.home .hb-fill-middle:hover::after {
+  height: 50%;
+}
+
+
+
+
+
+
+@media (min-width: 600px) {
+  .home .title p {
+    line-height: 80px;
+  }
+}
+
+@media (min-width: 800px) {
+  .home {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .home .title,
+  .home .person {
+    width: 50%;
+    margin-top: 0;
+    text-align: left;
+    font-size: 25px;
+  }
+  .home .person img {
+    width: 100%;
+  }
+}

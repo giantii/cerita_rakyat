@@ -1,0 +1,55 @@
+.skills {
+  flex-grow: 1;
+}
+
+.skills h1 {
+  margin-bottom: 20px;
+}
+
+.content {
+  display: grid;
+  font-size: 24px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content div {
+  margin-bottom: 25px;
+}
+
+.content strong {
+  line-height: 25px;
+  padding-bottom: 15px;
+  display: block;
+}
+
+.content li {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.content img {
+   
+  
+   transition: transform .2s;
+   /* Animation */
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+
+
+}
+
+.content img:hover {
+
+  transform: scale(1.5);
+
+}
+
+
+
+
+@media (min-width: 800px) {
+  .content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

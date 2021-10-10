@@ -1,0 +1,32 @@
+.RawaPening {
+    flex-grow: 1;
+  }
+  
+  .RawaPening h1 {
+    margin-bottom: 20px;
+    text-shadow: -5px -5px 5px rgb(0, 110, 255),
+    -5px 5px 5px rgba(255, 255, 255, 0.5),
+    5px -5px 5px rgb(255, 255, 255),
+    5px 5px 5px rgb(255, 255, 255);
+  }
+  .RawaPening p {
+    margin-bottom: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    text-shadow: -5px -5px 5px rgb(0, 110, 255),
+    -5px 5px 5px rgba(255, 255, 255, 0.5),
+    5px -5px 5px rgb(255, 255, 255),
+    5px 5px 5px rgb(255, 255, 255);
+  }
+  .RawaPening img {
+    width: 100%;
+  max-width: 400px;
+  height: 100%;
+  }
+  
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

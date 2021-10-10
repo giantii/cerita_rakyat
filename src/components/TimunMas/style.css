@@ -1,0 +1,18 @@
+.TimunMas {
+    flex-grow: 1;
+  }
+  
+  .TimunMas h1 {
+    margin-bottom: 20px;
+  }
+  .TimunMas p {
+    margin-bottom: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .TimunMas img {
+    width: 100%;
+  max-width: 400px;
+  height: auto;
+  }
+  

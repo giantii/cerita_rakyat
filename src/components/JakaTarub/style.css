@@ -1,0 +1,13 @@
+.JakaTarub {
+    flex-grow: 1;
+  }
+  
+  .JakaTarub h1 {
+    margin-bottom: 20px;
+  }
+  .JakaTarub p {
+    margin-bottom: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
