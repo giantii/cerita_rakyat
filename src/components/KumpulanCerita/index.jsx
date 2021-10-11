@@ -14,7 +14,7 @@ const KumpulanCerita = () => {
           <Link to="RawaPening">
           <button class="hbtn hb-fill-middle">
           <img
-          src={`https://i.imgur.com/qYE8yBM.jpeg`}
+          src={`https://blogger.googleusercontent.com/img/a/AVvXsEhPvWqD6Fng9RpfKVV_Bw0zzebfx_NzByH8CjFC4UgNNMQHY5UzA6wyZ3-mglvjfkRRpVPwgTWXqF9M-edxyPgnMoyqvjqR_Bun-0R9DEvVboxU5zdXaBjMqRZ4kpl5hhK8cE9bU9Hbf_OeNfN3BzraX0YFLo1Yn-Otlb4nV6IrvlshEE9zRQIIiVln=s150`}
           alt="rawa pening"
         />
           </button>
