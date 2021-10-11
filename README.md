@@ -3,7 +3,7 @@
 
   Demo versi 1 :https://cerita-rakyat.herokuapp.com/
   
-## How to develop it
+## Instalation
 - Clone on your local machine by using
 - Navigate into the main directory
 - Run `npm install` to install node modules
