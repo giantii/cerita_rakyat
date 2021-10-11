@@ -16,10 +16,10 @@ const App = () => {
         <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/KumpulanCerita" component={KumpulanCerita} />
-          <Route exact path="/RawaPening" component={RawaPening} />
-          <Route exact path="/LembarSiswa" component={LembarSiswa} />
+          <Route path="/about" component={About} />
+          <Route path="/KumpulanCerita" component={KumpulanCerita} />
+          <Route path="/RawaPening" component={RawaPening} />
+          <Route path="/LembarSiswa" component={LembarSiswa} />
         </Switch>
         <Footer />
       </div>
