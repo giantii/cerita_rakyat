@@ -33,14 +33,14 @@ const NavBar = () => {
         <div className="logo">
           <Link to="/">
             <img
-              src="https://i.imgur.com/38wQHZ5.png"
+              src="https://blogger.googleusercontent.com/img/a/AVvXsEg48iyHg38PuXl2PSj3SyQf0qW264j4QP54nXq36zEflhwaCql3wbRYgchhhYwAj78SxAWWusJwIFfXJjHUbhJJ-f0lPhtQa_WCh8-3cLf1XwBESMnDZFt4AXwJy45f5tpkXMweQMS03QeTUFYPJHdU3g9UsqPaw77XqUYDb8Yf5npOQWfjZinmnXpL=s800"
               alt="brand"
             />
           </Link>
         </div>
         <div className="list-wrapper">
           <img
-            src="https://i.imgur.com/K1IjqbO.png"
+            src="https://blogger.googleusercontent.com/img/a/AVvXsEgvZHAlR_knnQuTS3m7GhpIqJfe2yWhPahHCqfwdl6rsugV1KhJtg3rYpZC01muVj1wsa1MejOqeavCYfEoDIXI4TNjk04zjMu_Al8VHHJjcKsHG2wlW2eWJDZbeSzpJu1dSsbZvGoABCAom4LYbfjmuA1nZwhXGiCIE6h-dFfjtfvDABYdgwTKKA8C=s512"
             alt="Menu bars"
             style={{ opacity: !open ? 1 : 0 }}
             onClick={() => {
@@ -48,7 +48,7 @@ const NavBar = () => {
             }}
           />
           <img
-            src="https://github.com/DwinaTech/public-images/blob/main/cross-menu-icon.png?raw=true"
+            src="https://blogger.googleusercontent.com/img/a/AVvXsEi1iukSGckqFBAv5po0DsC7iArQ7gEaAaGEMondpoyAjGFtnh3VymERGglHhhZpEJw0f8NIkiEkqe9M3uOrbraUmiVSouRJGFEgKZ17aT6NgXar23GSLg7sEUlyzs0kRmFDE-IOXM3AEWADlGMMZDvDpaVmZG906iOOLSE3ZwJmD2PGFcn31c8IhOLM=s512"
             alt="Menu cross"
             style={{ opacity: open ? 1 : 0 }}
             onClick={() => {
