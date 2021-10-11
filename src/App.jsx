@@ -20,7 +20,6 @@ const App = () => {
           <Route exact path="/KumpulanCerita" component={KumpulanCerita} />
           <Route exact path="/RawaPening" component={RawaPening} />
           <Route exact path="/LembarSiswa" component={LembarSiswa} />
-          
         </Switch>
         <Footer />
       </div>
