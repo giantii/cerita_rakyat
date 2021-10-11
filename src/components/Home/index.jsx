@@ -10,7 +10,7 @@ const Home = () => {
           <p>Cerita Rakyat</p>
           <p>Indonesia</p>
         </h1>
-        <Link to="kumpulancerita" >
+        <Link to="KumpulanCerita" >
           <button class="hbtn hb-fill-middle">Kumpulan Cerita Rakyat</button>
         </Link>
         <br></br>
